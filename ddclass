@@ -1,0 +1,36 @@
+class A {
+
+    void display() {
+        System.out.println("Fulbabu");
+    }
+}
+
+class B extends A {
+
+    void show() {
+        System.out.println("Islam");
+    }
+}
+
+class C extends A {
+
+    void print() {
+        System.out.println("Fulbabu Islam");
+    }
+}
+
+public class ddclass {
+
+    public static void main(String[] args) {
+
+        B r1 = new B();
+
+        r1.display();
+        r1.show();
+
+        C r2 = new C();
+
+        r2.display();
+        r2.print();
+    }
+}
